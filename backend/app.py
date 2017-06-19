@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
 """
 Created on Mon May 22 14:29:00 2017
-
-@author: a616148
 """
 
 from flask import Flask, Response
