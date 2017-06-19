@@ -1,15 +1,13 @@
 # -*- coding: utf-8 -*-
 """
 Created on Mon May 22 14:34:35 2017
-
-@author: a616148
 """
 
 import feedparser
 import urllib.request
 
 def crawler(url):
-    proxy = urllib.request.ProxyHandler({"http":"http://proxy.statestr.com:80/"})
+    proxy = urllib.request.ProxyHandler({"http":"[proxy]"}) // add you own proxy
     
     d = feedparser.parse(url, handlers = [proxy])
     
