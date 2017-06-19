@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
 """
 Created on Tue May 23 16:41:13 2017
-
-@author: a616148
 """
 # -*- coding: utf-8 -*-
 import urllib.request
